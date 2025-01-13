@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+<title>All css wroking</title>
+<style>
+	.ic{
+	display:inline-block;
+	text-align:center;
+	padding: 20px;
+	background:yellow;
+	font-family:monospace;
+	font-size: 34px;
+	font-weight: bolder;
+	color:cyan;
+	}
+
+	.ci{
+	background:grey;
+	margin: 20px 9px;
+	color:blue;
+	}
+
+
+</style>
+<link rel="stylesheet" href="allT.css"/>
+	</head>
+<body>
+<p>Use case of { inline-internal-external } css.</p>
+<div>
+<section style="
+font-family: arial;
+font-size: 10px;
+">
+<h3>Welcome to <em>inline css</em></h3>
+<p>Hey! buddy i'm <span style="color:red;">inline css</span></p>
+</section>
+
+
+<section>
+<h3>Welcome to <em class="ci">Internal css</em></h3>
+<p>Welcome to <span class="ic">Internal css</span></p>
+</section>
+
+
+<section>
+<h3> Now this is <span class="ex">external link</span></h3>
+<p class="ex-1">It will work in <span class="ex-1">Separate</span> file with .css extension</p>
+</section>
+</div>
+</body>
+</html>

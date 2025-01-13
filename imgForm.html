@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Img Form</title>
+</head>
+
+<body>
+	<div class="regstr-form" style="
+display:flex;
+background-color: black;
+color:white;
+">
+		<div>
+			<img src="img.png" alt="img" width="400px" height="400px">
+		</div>
+		<form>
+			<h2>Registration Form</h2>
+
+			<label for="fname">Full Name:</label><br>
+			<input type="text" name="fname" placeholder="ex: Lindsey Wilson" /><br>
+
+			<label for="email">Your Email:</label><br>
+			<input type="email" name="email" placeholder="ex: lindsey@email.com" /><br>
+
+			<label for="pass">Password:</label><br>
+			<input type="password" name="pass" /><br>
+
+			<label for="cpass">Confirm Password:</label><br>
+			<input type="password" name="cpass" /><br>
+
+			<input type="checkbox" name="tm" />
+			<label>By signing up, you agree to the<br>
+				<a href="terms.html" target="_blank" style="color:white;">Play Term of Service</a><br><br>
+			</label>
+
+			<input type="submit" value="Register" class="btn" />
+		</form>
+	</div>
+</body>
+
+</html>

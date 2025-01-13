@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+<title>Next Form</title>
+	</head>
+<style>
+	
+	.cot{
+	position: relative;
+	width: 50%;
+  	border: 6px solid blue;
+	}
+
+	.txt {
+  	position: absolute;
+  	top: 20%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	color: black;
+	font-family: verdana;
+	font-size: 24px;
+	}
+
+	img{
+	opacity: 0.4;
+	
+	}
+
+	label{
+	font-family:arial;
+	padding: 10px;
+	padding-top: 100px;
+	}
+
+	.lb1,.ls{
+	position:relative;
+	left: 10px;
+	}
+
+	span{
+	color:red;
+	font-weight:bold;
+	}
+	
+	.lb,.lb1{
+	border: 1px solid;
+	border-radius: 5px;
+	}
+	
+	
+	.lb1{
+	width: 500px;
+	height: 20px;
+	}
+	
+	button{
+	width:100%;
+	background-color:skyblue;
+	font-size:24px;
+	border: none;
+	}
+	button:hover{
+	background-color:rgb(123, 226, 222);
+	cursor: pointer;
+	}
+</style>
+<body>
+<div class="cot">
+<img src="https://fs1.formsite.com/images/stock/2015/Travel/Travel02.jpg" alt="img" style="width:100%;"/>
+<div class="txt">School Transportation Request</div>
+<form>
+<label for="Sname">Student Name<span>*</span></label><br>
+<input class="lb1" type="text" name="Sname" /><br><br>
+<label for="Sname">School Name<span>*</span></label>
+<input class="lb" type="text" name="Sname" />
+<label for="Sname">Grade<span>*</span></label> 
+<input class="lb" type="text" name="Sname" />
+<label for="dob">Date to begin<span>*</span></label>
+<input type="date" name="dob" />
+
+<br><br>
+<label for="pg">Parent/guardian name<span>*</span></label><br>
+<input class="lb1" type="text" name="pg" />
+
+<br><br>
+
+<label for="adr">Address<span>*</span></label><br>
+<input class="lb1" type="text" name="adr" />
+
+<br><br>
+
+<label for="adr">Address 2</label><br>
+<input class="lb1" type="text" name="adr" />
+
+<br><br>
+
+<label for="adr">City<span>*</span></label><br>
+<input class="ls" type="text" name="adr" />
+
+<label for="adr">State<span>*</span></label>
+<select name="city">
+<option disabled>-select-</option>
+<option value="chd">Chandigrah</options>
+<option value="pun">Indore</options>
+<option value="uk">Kanpur</options>
+<option value="ker">Kolkata</options>
+<option value="mp">Chennai</options>
+<option value="gr">Faridabad</options>
+</select>
+<br><br>
+
+<label for="zp">Zip code<span>*</span></label><br>
+<input class="ls" type="text" name="zp" />
+
+<label for="zp">Phone number<span>*</span></label>
+<input class="ls" type="number" name="zp"  placeholder="(__) __-__"/>
+
+<br><br>
+<label for="zp">Email address<span>*</span></label><br>
+<input class="lb1" type="email" name="zp" placeholder="name@mail.co"/><br><br>
+<button>Submit</button>
+</form>
+</div>
+
+</body>
+</html>
