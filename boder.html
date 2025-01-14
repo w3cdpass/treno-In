@@ -1,0 +1,177 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Semantic HTML</title>
+	<link rel="icon" type="image/x-icon" href="fav.ico">
+
+<style>
+	body
+	{
+	font-family: arial;
+	line-height: 1.6;
+	magin: 0;
+	padding:0;
+	}
+
+	.container
+	{
+	width: 80%;
+	margin: 0 auto;
+	}
+	
+	header
+	{
+	background: grey;
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+	}
+
+	header h1
+	{
+	margin: 0;
+	}
+
+	nav ul
+	{
+	list-style: none;
+	padding: 0;
+	}
+	
+	nav ul li a 
+	{
+  	color: #fff;
+  	text-decoration: none;
+	}
+	
+	a:hover
+	{
+	color: blue;
+	text-decoration: overline;
+	
+	}
+	
+	nav ul li 
+	{
+	display: inline;
+	margin: 0 10px;
+	}
+
+	main
+	{
+	display:flex;
+	justify-content: space-between;
+	margin: 20px 0;
+	}
+
+	article
+	{
+	width: 70%;
+	}
+	
+	aside
+	{
+	width: 25%;
+	background: #f4f4f4;
+	padding: 20px;
+	}
+
+
+	footer 
+	{
+  	background: #333;
+  	color: #fff;
+  	text-align: center;
+  	padding: 10px 0;
+	}
+
+	footer nav ul 
+	{
+  	display: flex;
+  	justify-content: center;
+	}
+
+	footer nav ul li 
+	{
+  	margin: 0 10px;
+	}
+
+	footer nav ul li a 
+	{
+  	color: #fff;
+  	text-decoration: none;
+	}
+
+	
+
+</style>
+</head>
+<body>
+<header>
+	  <div class="container">
+	       <h1>Semantic Elements</h1>
+	       <nav>
+		<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Features</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li><a href="#">About</a></li>
+		</ul>
+		</nav>
+	  </div>
+</header>
+
+<main>	
+	<article>
+	 	<header>
+			<h2>Welcome to My Website</h2>
+			<p>Published on: <time datetime="2020-12-12">Dec 12,2020</time></p>
+		</header>
+		<section>
+			<p>This is a simple layout to documents HTML5 semantic Tags.</p>
+			<p>By using semantic elments like <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, we create a more accessible, readable, SEO-friendly.</p>
+		</section>
+	</article>
+
+
+
+	<article>
+	 	<header>
+			<h2>Welcome to My Website</h2>
+			<p>Published on: <time datetime="2020-12-12">Dec 12,2020</time></p>
+		</header>
+		<section>
+			<p>This is a simple layout to documents HTML5 semantic Tags.</p>
+			<p>By using semantic elments like <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, we create a more accessible, readable, SEO-friendly.</p>
+		</section>
+	</article>
+</main>
+
+
+<aside>
+	<h3>Latest News</h2>
+	<ul>
+	<li><a href="#">I'm a sidebar in aside </mark>semantic</mark>.</a></li>
+	<li><a href="#">I'm a sidebar in aside </mark>semantic</mark>.</a></li>
+	<li><a href="#">I'm a sidebar in aside </mark>semantic</mark>.</a></li>
+	</ul>
+</aside>
+
+<footer>
+	<div class="container">
+	<p>&copy; 2025 My Website. All are Semantic elements.</p>
+	<nav>
+	    <ul>
+		<li><a href="#">Privacy Policy</a></li>
+		<li><a href="#">Privacy Policy</a></li>
+		<li><a href="#">Privacy Policy</a></li>
+		<li><a href="#">Privacy Policy</a></li>
+	    </ul>
+	</nav>
+	</div>
+</footer>
+
+</body>
+</html>
