@@ -1,0 +1,204 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+	<title>Form</title>
+	  <link rel="icon" type="image/x-icon" href="fav.ico">
+
+
+<style>
+	body
+	{
+	font-family: arial;
+	background-color: skyblue;
+	}
+
+	.h
+	{
+	text-align:center;
+	font-size:40px;
+	background-color: grey;
+	margin:2px;
+	border-bottom: 2px solid blue;
+	}
+
+	
+
+	.form-sec
+	{
+	width: 500px;
+	margin:auto;
+	padding: 20px;
+	background-image: url("sky.jpg");
+	border-radius: 8px;
+	}
+
+	label
+	{
+	font-size:18px;
+	}
+	
+	input,select,textarea
+	{
+	border-style:none;
+	border-radius: 2px;
+	}
+
+	
+	.reset,.submit
+	{
+	background-color: skyblue;
+	margin:0;
+	padding:0;
+	width: 100%;
+	}
+
+	.reset:hover
+	{
+	background-color: grey;
+	}
+	
+	.submit:hover
+	{
+	background-color: grey;
+	}
+
+	img
+	{
+	position: absolute;
+    	top: 200px;
+    	right: 33%;
+	width: 400px;
+	height: auto;
+	
+	}
+
+
+</style>
+</head>
+
+<body >
+ <div class="container">
+	<section class="form-sec">
+	  <h1 class="h">Registration Form</h1>
+	
+	<img src="pngwing.com.png" alt="img">
+	<form action="formServer.php" method="get" >
+		<label for="Fname">Name:</label><br>
+		<input name="Fname" type="text" placeholder="Jhon" required>
+		<input name="Lname" type="text" placeholder="Doe" required>
+		<br>
+		
+		<label for="email">Email:</label><br>
+		<input name="email" type="email" placeholder="jhonDoe@mail.com"  required><br>
+
+		<label for="passd">Password</label><br>
+		<input name="passd" type="password" ><br>
+
+		<label for="passd">Confrim Password</label><br>
+		<input name="passd" type="password" ><br>
+		
+
+		<label for="sty">Study</label><br>
+		<select for="studies">
+		<option disabled>-select-</option>
+		<option value="10th">10th</option>
+		<option value="12th">12th</option>
+		<option value="college">College</option>
+		<option value="d">Dimploma</option>
+		</select>
+		<br>
+
+		<label for="sty">Stream:</label><br>
+		<select for="studies">
+		<option disabled>-select-</option>
+		<option value="d">IT(Information Technology)</option>
+		<option value="10th">Arts</option>
+		<option value="12th">Commerce</option>
+		<option value="college">Science</option>
+		</select><br>
+
+		<! -- Date of graduation -->
+
+		<label for="date">Year of Graduation</label><br>
+		<label for="sty">Start Year</label><br>
+		<input type="month" name="sty" ><br>
+		<label for="end">End Date</label><br>
+		<input type="month" name="end" ><br>
+
+
+
+		<label for="ph">Contact Information</label><br>
+		<input name="ph" type="tel" placeholder="+98 12345-67890" pattern="[+]{+}[0-9]{2} [0-9]{5}-[0-9]{5}" required>
+
+		<br>
+
+
+
+		<label for="addr">Address</label><br>
+		<textarea name="addr">
+		</textarea><br>
+		
+
+		<label for="sty">City:</label><br>
+		<select for="studies">
+		<option disabled>-select-</option>
+		<option value="d">Chandigarh</option>
+		<option value="10th">Ropar</option>
+		<option value="12th">Makhan Majra</option>
+		<option value="college">Other</option>
+		</select><br>
+	
+		<label for="code">Pin/Zipcode:</label><br>
+		<input type="number"  name="code"  ><br>
+
+
+		<label for="lan">Languages</label><br>
+		<input name="lan" type="checkbox">Hindi</input>
+		<input name="lan" type="checkbox">English</input>
+		<input name="lan" type="checkbox">Punjabi</input><br>
+
+		<label for="hind">Langage Level</label>
+		<input type="range" min="12" max="34" name="min">
+		<br>
+
+
+
+		<label for="radio">Hobby</label><br>
+		<label for="cr">Cricket</label>
+		<input name="cr" type="radio">
+		<label for="cr">Hockey</label>
+		<input name="cr" type="radio">
+		<label for="cr">Baseball</label>
+		<input name="cr" type="radio">
+		
+		<br>
+
+		<label for="radio">Hobby</label><br>
+		<label>Cricket</label>
+		<input type="radio">
+		<label>Hockey</label>
+		<input type="radio">
+		<label for="cr">Baseball</label>
+		<input  type="radio">
+		
+		<br>
+
+
+		<label for="cert">Attach Certificate</label><br>
+		<input type="file" name="cert" >
+		<br>
+		
+		<input class="reset" type="reset"> <input class="submit" type="submit">
+
+
+	</form>
+	
+
+	</section>
+</div>
+
+
+</body>
+</html>
