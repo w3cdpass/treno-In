@@ -15,6 +15,13 @@
         padding: 0px;
     }
 
+    .sticky-nav-items {
+        position: sticky;
+        top: 0px;
+        overflow: hidden;
+
+    }
+
     .header-img-txt {
         display: flex;
         gap: 600px;
@@ -69,63 +76,72 @@
 
         <div class="header">
 
+            <div class="sticky-nav-items">
 
-            <div class="header-img-txt">
+
+                <div class="header-img-txt">
 
 
-                <div class="hdr-img">
-                    <img class="digi-logo" src="digi.png" alt="digiwolves-logo">
-                    <h2 class="hdr-txt">DIGIWOLVES</h2>
+                    <div class="hdr-img">
+                        <img class="digi-logo" src="digi.png" alt="digiwolves-logo">
+                        <h2 class="hdr-txt">DIGIWOLVES</h2>
+                    </div>
+
+                    <!--<a target="_blank" href="https://icons8.com/icon/16713/whatsapp">WhatsApp</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>-->
+
+                    <div class="whts-number-book">
+                        <img class="whts-app-img" src="icons8-whatsapp.svg" alt="whatsapp-number"><span
+                            class="number-whts">+91
+                            7658824741</span>
+
+                        <a class="book-a-mtng" href="#book-a-meeting">BOOK A MEETING</a>
+                    </div>
+
+
+
                 </div>
 
-                <!--<a target="_blank" href="https://icons8.com/icon/16713/whatsapp">WhatsApp</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>-->
+                <style>
+                    .nav-list {
+                        display: flex;
+                        justify-content: center;
+                        gap: 68px;
+                        font-family: arial;
+                        list-style: none;
+                        font-weight: 800;
+                        font-size: 13px;
+                        background: white;
+                        padding-top: 20px;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        align-items: center;
+                        padding-bottom: 20px;
+                        box-shadow: inset 0px 0px 2px #000000;
+                    }
 
-                <div class="whts-number-book">
-                    <img class="whts-app-img" src="icons8-whatsapp.svg" alt="whatsapp-number"><span
-                        class="number-whts">+91
-                        7658824741</span>
+                    .nav-links {
+                        text-decoration: none;
+                        color: black;
+                    }
+                </style>
+                <div class="navbar">
+                    <nav>
+                        <ul class="nav-list">
+                            <li><a class="nav-links" href="#nav-links-go-to-here">SEO SERVICES</a></li>
+                            <li><a class="nav-links" href="#nav-links-go-to-here">PPC</a></li>
+                            <li><a class="nav-links" href="#nav-links-go-to-here">SOCIAL MEDIA</a></li>
+                            <li><a class="nav-links" href="#nav-links-go-to-here">WEB DEVELOPMENT</a></li>
+                            <li><a class="nav-links" href="#nav-links-go-to-here">GRAPHICS</a></li>
+                            <li><a class="nav-links" href="#nav-links-go-to-here">BLOG</a></li>
+                            <li><a class="nav-links" href="#nav-links-go-to-here">ABOUT DW</a></li>
+                            <li><a class="nav-links" href="#nav-links-go-to-here">CONTACT US</a></li>
 
-                    <a class="book-a-mtng" href="#book-a-meeting">BOOK A MEETING</a>
+                        </ul>
+
+                    </nav>
+
                 </div>
-
-
             </div>
-
-
-            <style>
-                .nav-list {
-                    display: flex;
-                    justify-content: center;
-                    gap: 68px;
-                    font-family: arial;
-                    list-style: none;
-                    font-weight: 600;
-                    font-size: 15px;
-                }
-
-                .nav-links {
-                    text-decoration: none;
-                    color: black;
-                }
-            </style>
-            <div class="navbar">
-                <nav>
-                    <ul class="nav-list">
-                        <li><a class="nav-links" href="#nav-links-go-to-here">SEO SERVICES</a></li>
-                        <li><a class="nav-links" href="#nav-links-go-to-here">PPC</a></li>
-                        <li><a class="nav-links" href="#nav-links-go-to-here">SOCIAL MEDIA</a></li>
-                        <li><a class="nav-links" href="#nav-links-go-to-here">WEB DEVELOPMENT</a></li>
-                        <li><a class="nav-links" href="#nav-links-go-to-here">GRAPHICS</a></li>
-                        <li><a class="nav-links" href="#nav-links-go-to-here">BLOG</a></li>
-                        <li><a class="nav-links" href="#nav-links-go-to-here">ABOUT DW</a></li>
-                        <li><a class="nav-links" href="#nav-links-go-to-here">CONTACT US</a></li>
-
-                    </ul>
-
-                </nav>
-
-            </div>
-
 
             <style>
                 .section-banner-msg {
@@ -412,6 +428,7 @@
                 padding-right: 30px;
                 padding-top: 20px;
                 color: white;
+                padding-bottom: 30px;
             }
 
 
@@ -510,6 +527,729 @@
             </div>
         </section>
 
+        <style>
+            .fre-cons {
+                padding-bottom: 40px;
+            }
+
+            .img-1 {
+                width: 200px;
+                border-radius: 100px;
+                margin-top: 30px;
+            }
+
+            .fre-txt {
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .txt-in {
+                font-size: 30px;
+                padding-top: 20px;
+            }
+
+            .txt-p {
+                font-size: 18px;
+                margin-top: -24px;
+            }
+
+            .fre-img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .fre-img-1,
+            .fre-img-2,
+            .fre-img-3 {
+                background: #f3f3f3;
+                text-align: center;
+                border-radius: 5px;
+                width: 420px;
+                height: 385px;
+            }
+
+            .img-txt,
+            .img-a {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .img-txt {
+                font-size: 24px;
+            }
+
+            .img-a {
+                text-decoration: none;
+                font-size: 18px;
+                background: #ffdd00;
+                padding: 10px;
+                border-radius: 5px;
+                color: #000000;
+            }
+
+            .ad-hdr,
+            .ad-txt {}
+        </style>
+
+
+        <section class="fre-cons">
+            <div class="fre-cons-cont">
+                <div class="fre-txt">
+                    <h2 class="txt-in">Get a Free Consultation Today</h2>
+                    <br>
+                    <p class="txt-p">Our experts are dedicated to helping you succeed. Talk to an expert <br> and get
+                        your questions answered in a free 30-minute call.</p>
+                </div>
+                <div class="fre-img">
+                    <div class="fre-img-1">
+                        <img class="img-1" src="man-in-garden.webp" alt="">
+                        <br>
+                        <h3 class="img-txt">SEO Expert</h3>
+                        <br>
+                        <a class="img-a" href="#bk-a-app">Book an Appointment</a>
+                    </div>
+                    <div class="fre-img-2">
+                        <img class="img-1" src="man-with-red-hoddies.webp" alt="">
+                        <br>
+                        <h3 class="img-txt">SEO Expert</h3>
+                        <br>
+                        <a class="img-a" href="#bk-a-app">Book an Appointment</a>
+
+                    </div>
+                    <div class="fre-img-3">
+                        <img class="img-1" src="women-blue-background.webp" alt="">
+                        <br>
+                        <h3 class="img-txt">SEO Expert</h3>
+                        <br>
+                        <a class="img-a" href="#bk-a-app">Book an Appointment</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <style>
+            .exc-awrd {
+                background: #f3f3f3;
+                padding-bottom: 30px;
+            }
+
+            .exc-number-lst-cont {
+                text-align: center;
+
+            }
+
+            .exc-txt,
+            .exc-num,
+            .awrd-hdr {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+            }
+
+            .exc-txt {
+                padding-top: 50px;
+            }
+
+            .exc-num {
+                display: flex;
+                justify-content: center;
+                list-style-type: none;
+                gap: 126px;
+                font-size: 18px;
+                font-weight: 800;
+                margin-top: -25px;
+
+            }
+
+            .awrd-hdr {
+                margin-top: 37px;
+            }
+
+            .ad-img {
+                width: 130px;
+                margin-top: -70px;
+            }
+
+            .awrd-grid-1 {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                gap: 20px;
+
+            }
+
+            .ad-grd-1,
+            .ad-grd-2,
+            .ad-grd-3 {
+                width: 413px;
+                height: 320px;
+                background: #fefefe;
+                border-radius: 10px;
+                margin-bottom: 20px;
+            }
+
+
+            .ad-hdr,
+            .ad-txt {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .ad-txt {
+                font-weight: 600;
+                color: #8c8c8c;
+                margin-top: -9px;
+            }
+        </style>
+
+
+
+        <section class="exc-awrd">
+            <div class="exc-number-lst-cont">
+                <h3 class="exc-txt">Excellence Numbers</h3>
+                <br>
+                <ul class="exc-num">
+                    <li>450+ <br> HAPPY CLIENTS</li>
+                    <li>36+ <br> TEAM MEMBERS</li>
+                    <li> 12+ <br> GLOBAL AWARDS</li>
+                    <li> 14+ <br> YEARS EXPERICENCE</li>
+                </ul>
+                <h2 class="awrd-hdr"> Awards and Certification</h2>
+            </div>
+            <section class="awrd-cont">
+
+
+                <div class="awrd-grid-1">
+
+                    <div class="ad-grd-1">
+                        <style>
+                            .ad-h2 {
+                                display: flex;
+                                margin: 0;
+                                font-size: 80px;
+                                padding: 0;
+                                width: 0px;
+                                margin-left: 20px;
+                                font-family: cursive;
+                                color: #aaaaaa;
+                            }
+                        </style>
+                        <div class="numb-style">
+                            <h2 class="ad-h2">01</h2>
+                        </div>
+                        <img class="ad-img" src="./Clutchdd.png" alt="">
+                        <br>
+                        <h4 class="ad-hdr">BEST DIGITAL MARKETING AGENCY</h4>
+                        <br>
+                        <p class="ad-txt">Web Ministers was proudly recognized as the <br> “Best Digital Marketing
+                            Agency” in 2018.</p>
+                    </div>
+                    <div class="ad-grd-2">
+                        <div class="numb-style">
+                            <h2 class="ad-h2">02</h2>
+                        </div>
+                        <img class="ad-img" src="./Clutchdd.png" alt="">
+                        <br>
+                        <h4 class="ad-hdr">BEST DIGITAL MARKETING AGENCY</h4>
+                        <br>
+                        <p class="ad-txt">Web Ministers was proudly recognized as the <br> “Best Digital Marketing
+                            Agency” in 2018.</p>
+                    </div>
+                    <div class="ad-grd-3">
+                        <div class="numb-style">
+                            <h2 class="ad-h2">03</h2>
+                        </div>
+                        <img class="ad-img" src="./award-fit-small-business.png" alt="">
+                        <br>
+                        <h4 class="ad-hdr">BEST DIGITAL MARKETING AGENCY</h4>
+                        <br>
+                        <p class="ad-txt">Web Ministers was proudly recognized as the <br> “Best Digital Marketing
+                            Agency” in 2018.</p>
+                    </div>
+                </div>
+                <div class="awrd-grid-1">
+
+                    <div class="ad-grd-1">
+                        <style>
+                            .ad-h2 {
+                                display: flex;
+                                margin: 0;
+                                font-size: 80px;
+                                padding: 0;
+                                width: 0px;
+                                margin-left: 20px;
+                                font-family: cursive;
+                                color: #aaaaaa;
+                            }
+                        </style>
+                        <div class="numb-style">
+                            <h2 class="ad-h2">04</h2>
+                        </div>
+                        <img class="ad-img" src="./Clutchdd.png" alt="">
+                        <br>
+                        <h4 class="ad-hdr">BEST DIGITAL MARKETING AGENCY</h4>
+                        <br>
+                        <p class="ad-txt">Web Ministers was proudly recognized as the <br> “Best Digital Marketing
+                            Agency” in 2018.</p>
+                    </div>
+                    <div class="ad-grd-2">
+                        <div class="numb-style">
+                            <h2 class="ad-h2">05</h2>
+                        </div>
+                        <img class="ad-img" src="./rhQEQDbn.png" alt="">
+                        <br>
+                        <h4 class="ad-hdr">BEST DIGITAL MARKETING AGENCY</h4>
+                        <br>
+                        <p class="ad-txt">Web Ministers was proudly recognized as the <br> “Best Digital Marketing
+                            Agency” in 2018.</p>
+                    </div>
+                    <div class="ad-grd-3">
+                        <div class="numb-style">
+                            <h2 class="ad-h2">06</h2>
+                        </div>
+                        <img class="ad-img" src="./onlinecrm.png" alt="">
+                        <br>
+                        <h4 class="ad-hdr">BEST DIGITAL MARKETING AGENCY</h4>
+                        <br>
+                        <p class="ad-txt">Web Ministers was proudly recognized as the <br> “Best Digital Marketing
+                            Agency” in 2018.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- section five pt-1 -->
+        <style>
+            .rvn-cont {
+                padding-bottom: 45px;
+            }
+
+            .rvn-img-1 {
+                width: 560px;
+                border-radius: 10px;
+            }
+
+            .rvn-grid-1 {
+                width: 1200px;
+                margin: auto;
+                background: #f0f5fa;
+                border-radius: 20px;
+            }
+
+            .rvn-ls {
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+                list-style: none;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .pdr {
+                background: white;
+                box-shadow: 1px 2px 7px 1px #00000012;
+                width: 145px;
+                border-radius: 10px;
+                height: 40px;
+                /* font-size: 16px; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                font-size: 14px;
+                font-weight: 700;
+                color: #6e6e6e;
+            }
+
+            .rvn-fex {
+                display: flex;
+                margin: 0px 50px 0px 50px;
+                margin-top: 55px;
+            }
+
+            .bl-mk {}
+
+            .rvn-list {
+                margin-top: 50px;
+                padding-bottom: 60px;
+            }
+
+            .rvn-info {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .bl-mk-hdr {
+                font-size: 38px;
+                margin-top: -14px;
+            }
+
+            .bl-mk-txt {
+                margin-top: -28px;
+                color: #707275;
+            }
+
+            .bl-mk-dl {
+                display: flex;
+                gap: 80px;
+                text-align: center;
+                margin-top: -10px;
+            }
+
+            .bl-mk-h3 {
+                color: #344376;
+            }
+        </style>
+        <section class="rvn-cont">
+            <div class="rvn-grid-1">
+                <div class="rvn-list">
+                    <ul class="rvn-ls">
+                        <li class="pdr">Luury Communities</li>
+                        <li class="pdr">Franchise</li>
+                        <li class="pdr">Ecommerce</li>
+                        <li class="pdr">Crypto</li>
+                        <li class="pdr">Others</li>
+                    </ul>
+                    <div class="rvn-fex">
+                        <div class="rvn-info">
+                            <h3 class="bl-mk">BLOCKCHAIN MARKETING</h3>
+                            <br>
+                            <h2 class="bl-mk-hdr">Crypto Credibilty</h2>
+                            <br>
+                            <p class="bl-mk-txt">Publish targeted PPC ads to luxury community users that other <br>
+                                agencies
+                                don’t know how to reach.</p>
+                            <div class="bl-mk-dl">
+                                <div class="bl-mk-dl-1">
+                                    <h2 class="bl-mk-hdr-1">$ 1.5 M</h2>
+                                    <br>
+                                    <p class="bl-mk-txt">Additional Revenue Generated</p>
+                                </div>
+                                <div class="bl-mk-dl-1">
+                                    <h2 class="bl-mk-hdr-2">2,500 %</h2>
+                                    <br>
+                                    <p class="bl-mk-txt">ROAS</p>
+                                </div>
+                            </div>
+
+                            <div class="bl-mk-ovr">
+                                <h3 class="bl-mk-h3">Wade Warren</h3>
+                                <br>
+                                <p class="bl-mk-txt">Our conversions increased by 34% after just 1 month of running new
+                                    <br>PPC
+                                    campaigns. DMA guided us through every step of the planning phase, from research to
+                                    launch.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rvn-img">
+                            <img class="rvn-img-1" src="./luxury_communities.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- second grid  -->
+
+            <style>
+                .rvn-h2 {
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                .bk-a-met {
+                    width: 1200px;
+                    margin: auto;
+                    background: #001251;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 422px;
+                    border-radius: 12px;
+                    gap: 180px;
+
+
+                }
+
+                .bk-img {
+                    width: 530px;
+                    border-radius: 8px;
+                }
+
+                .bk-h2 {
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: #f0f5fa;
+                    font-size: 40px;
+                    margin-top: -36px;
+                }
+
+                .bk-gren {
+                    color: #02ff13;
+                }
+
+                .bk-lnk {
+                    background: #02ff13;
+                    text-decoration: none;
+                    font-family: arial;
+                    font-size: 18px;
+                    font-weight: 600;
+                    padding: 12px;
+                    border-radius: 10px;
+                }
+
+                .bk-txt {
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color: #f3f3f3;
+                    margin: 0;
+                    font-size: 16px;
+                    margin-top: -18px;
+                    margin-bottom: 20px;
+                }
+                .ratle{
+                    margin-top: 70px;
+                    font-size: 34px;
+                }
+            </style>
+
+
+            <div class="rvn-grid-2">
+                <div class="rvn-h2">
+                    <h2 class="ratle">Our Proven Results</h2>
+                </div>
+                <div class="bk-a-met">
+
+                    <div class="bk-txt-h">
+                        <h2 class="bk-h2">Book a meeting
+                            <br> <span class="bk-gren">To Get Started</span>
+                        </h2>
+                        <p class="bk-txt">Speak to an expert to find out how Digital Consumer <br>Intelligence will
+                            change the way you work.</p>
+                        <a class="bk-lnk" href="#book-a-meeting">Book a Meeting</a>
+                    </div>
+                    <div class="bk-img-1">
+                        <img class="bk-img" src="pasted-image-0-2.png" alt="">
+                        <!-- <img class="bk-img" src="pasted-image-0-4.png" alt=""> -->
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <style>
+            .logo-n-ft {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-top: 0.1px solid #d3d1d1;
+
+            }
+
+            .ft-h2 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 36px;
+                font-weight: 800;
+            }
+
+            .ft-logo {
+                width: 100px;
+            }
+
+            .ft-th-lst {
+                display: flex;
+                justify-content: center;
+                gap: 125px;
+            }
+
+            .ft-ul-h2 {
+                color: #001251;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 24px;
+                margin-bottom: -18px;
+            }
+
+            div.ft-ul-1 ul,
+            div.ft-ul-2 ul,
+            div.ft-ul-3 ul,
+            div.ft-ul-4 ul {
+                list-style: none;
+                padding-left: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 2;
+                font-weight: 600;
+                color: #535454;
+            }
+
+            .ft-txt {
+                color: #535454;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: small;
+            }
+
+            .more {
+                margin-top: -15px;
+            }
+
+            .more-txt {
+                margin-top: 30px;
+            }
+
+            .sz-in {
+                width: 169px;
+                height: 30px;
+                text-align: center;
+            }
+
+            .sz-sm {
+                font-size: 20px;
+                margin-top: 10px;
+                width: 177px;
+                background: #001251;
+                color: #f3f3f3;
+            }
+        </style>
+        <footer>
+            <div class="logo-n-ft">
+                <img class="ft-logo" src="digi.png" alt="digiwolves0img">
+                <h2 class="ft-h2">Digiwolves</h2>
+            </div>
+            <div class="ft-th-lst">
+                <div class="ft-ul-1">
+                    <h3 class="ft-ul-h2">What We Do</h3>
+                    <br>
+                    <ul>
+                        <li>SEO</li>
+                        <li>PPC</li>
+                        <li>Social Media</li>
+                        <li>Web Development</li>
+                    </ul>
+                </div>
+                <div class="ft-ul-2">
+                    <h3 class="ft-ul-h2">Industries</h3>
+                    <br>
+                    <ul>
+                        <li>Luxury Communities</li>
+                        <li>Franchise</li>
+                        <li>E-Commerce</li>
+                        <li>Cryto</li>
+                        <li>Assisted Living</li>
+                        <li>Other</li>
+                    </ul>
+                </div>
+                <div class="ft-ul-3">
+                    <h3 class="ft-ul-h2">What We Do</h3>
+                    <br>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Blog</li>
+                        <li>Service</li>
+                        <li>Work</li>
+                        <li>Jobs</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="ft-ul-4">
+                    <h3 class="ft-ul-h2">Careers</h3>
+                    <br>
+                    <ul>
+                        <li>Careers</li>
+                        <li>Applicant Privacy</li>
+                    </ul>
+                    <br>
+                    <!-- this is 2nd particion -->
+                    <h3 class="ft-ul-h2 more">Cantact Us</h3>
+                    <br>
+                    <ul>
+                        <li>Help</li>
+                        <li>Intergration</li>
+                        <li>Community</li>
+                        <li>Docs</li>
+                    </ul>
+                </div>
+                <div class="ft-ul-4">
+                    <h3 class="ft-ul-h2">Blogs</h3>
+                    <br>
+                    <p class="ft-txt ">Reads the latest Digital <br> Marketing news</p>
+                    <br>
+                    <h3 class="ft-ul-h2">Digiwolves Bulletin</h3>
+                    <p class="ft-txt more-txt">All our latest data stories & <br> insights straight to your inbox</p>
+                    <br>
+
+                    <input class="ft-inp sz-in" type="email" placeholder="Enter your Email" name="e-mail">
+                    <br>
+                    <button class="ft-btn sz-in sz-sm" type="submit" title="send-mail">Send</button>
+                </div>
+            </div>
+
+            <style>
+                .cont-info {
+                    display: flex;
+                    justify-content: center;
+                    border: 2px solid #d3d1d1;
+                    border-left: 0px;
+                    border-right: 0px;
+                    gap: 150px;
+                    height: 100px;
+                }
+
+                .cont-info-1 {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .cont-info-1-img {
+                    width: 64px;
+                }
+
+                .tem-1,
+                .tem-2 {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .tem-1 {
+                    margin-top: 5px;
+                }
+
+                .tem-2 {
+                    margin-top: -30px;
+                }
+                .loc-info-txt{
+                    margin-left: 5px;
+                }
+
+                .loc-info{
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 600;
+                }
+
+                .ft-cp{
+                    text-align: center;
+                    font-size: medium;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            </style>
+            <div class="cont-info">
+                <div class="cont-info-1">
+                    <img class="cont-info-1-img" src="icons8-telephone.svg" alt="telephone-number">
+                    <h2 class="cont-info-1-num">Need Help? Say Hello
+                        +91 (7658) 827-741</h2>
+                </div>
+                <div class="loc-info">
+                    <div class="tem-1">
+                        <img class="loc-img" src="icons8-location-24.png" alt="">
+                        <p class="loc-info-txt">B905,Bestesch Business Center, Chandigarh</p>
+                    </div>
+                    <br>
+                    <div class="tem-2">
+                        <img class="loc-img" src="icons8-mail-24.png" alt="">
+                        <p class="loc-info-txt">Hello@digiwolves.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ft-copy-all">
+                <p class="ft-cp">
+                    Copyright © 2012-2024 Digi Wolves.  Terms & Conditions | Privacy Statement | Cookie Notice | Global Unsubscribe | Sitemap
+                </p>
+            </div>
+        </footer>
     </div>
 
 
